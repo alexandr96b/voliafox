@@ -32,6 +32,49 @@
 <body>
 
 
+<!-- modal-callback -->
+<div class="modal modal-callback fade" id="modalcallback" tabindex="-1" role="dialog" aria-labelledby="modal-callback" aria-hidden="true">
+	<div class="modal-dialog">
+		<button data-dismiss="modal" class="modal-close"></button>
+		<div class="b-modal-form">
+			<form action="">
+				<div class="b-form-item">
+					<span>Оберіть місто*</span>
+					<input class="b-form-input" type="text" placeholder="Харків">
+				</div>
+				<div class="b-form-item">
+					<span>Email*</span>
+					<input class="b-form-input" type="text" placeholder="info@gmail.com">
+				</div>
+				<div class="b-form-item">
+					<span>Мобільний телефон*</span>
+					<input class="b-form-input" type="text" placeholder="+38 (000) 123-45-67">
+				</div>
+	            <div class="b-checkbox">
+	              <input type="checkbox" checked id="n1" name="n4" />
+	              <label for="n1"><span></span><i>Погоджуюся з умовами <a href="">договору</a></i></label>  
+	            </div>									
+				<input class="b-form-btn" type="submit" value="замовити послугу">
+				<button class="btn-abonent">я абонент</button>
+			</form>
+		</div>     	
+	</div>
+</div>
+
+<!-- modal-text -->
+<div class="modal modal-text fade" id="modal-text" tabindex="-1" role="dialog" aria-labelledby="modal-text" aria-hidden="true">
+	<div class="modal-dialog">
+		<button data-dismiss="modal" class="modal-close"></button>
+		<div class="b-modal-text">
+			<strong>Дякуємо!</strong>
+			<p>Заявка на підключення <b>успішно прийнята</b>.<br/>
+			Протягом години з вами зв'яжеться наш спеціаліст.</p>
+			<p>Дзвінок може надійти <b>з захованого номера</b>.</p>
+			<p>Для Вашої зручності дзвінки здійснюються <b>з 8:00 до 22:00</b> в робочі дні.<br/>
+			Та <b>з 10:00 до 22:00</b> у вихідні.</p>
+		</div>   	
+	</div>
+</div>
 
 
 
@@ -51,8 +94,8 @@
 				</div>
 				<div class="b-header-content">
 					<div class="b-header-content__left">
-						<button class="btn-connect">Підключити</button>
-						<button class="btn-det">Детальніше</button>
+						<button class="btn-connect" data-toggle="modal" data-target="#modalcallback">Підключити</button>
+						<button class="btn-det" data-toggle="modal" data-target="#modal-text" >Детальніше</button>
 					</div>
 					<div class="b-header-content__right">
 						<div class="b-header-content__wrap">
@@ -221,6 +264,124 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="b-price">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl">
+						<div class="b-price-title">
+							<h2 class="b-title-item">Iнтернет+бIльш нiж ТБ<br/>
+							Тарифы:</h2>
+						</div>
+					</div>
+				</div>
+				<div class="b-advantages-text">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+							<div class="b-info-content__wrap">
+								<p>Сервіс <b>FOXNOW</b> надається абонентам розширених пакетів Інтерактивного <b>Воля TV</b></p>
+							</div>								
+						</div>
+					</div>
+				</div>		
+				<div class="b-price-content">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+							<div class="b-price-item">
+								<div class="b-price-item__wrap">
+									<div class="b-price-item__top">
+										<b>269<sup>грн</sup></b>
+										<strong>TURBO hd</strong>
+									</div>
+									<div class="b-price-item__list">
+										<b>Телебачення</b>
+										<ul>
+											<li>Понад <b>120</b> каналів</li>
+										</ul>
+										<a href="">Список каналів</a>
+									</div>
+									<div class="b-price-item__list">
+										<b>Інтернет</b>
+										<ul>
+											<li>Швидкість до <b>200</b> Мбіт/с</li>
+											<li>Необмежений об'єм трафіку</li>
+										</ul>
+									</div>									
+								</div>
+								<div class="b-price-item__btns">
+									<button class="btn-connect">Підключити</button>
+									<button class="btn-price">Детальніше</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+							<div class="b-price-item b-price-item__two">
+								<div class="b-price-item__action">
+									<span>до -50% на 4 мIсяцI + WiFi роутер</span>
+								</div>
+								<div class="b-price-item__wrap">
+									<div class="b-price-item__top">
+										<b>159<sup>грн</sup></b> <strike>229</strike>
+										<strong>Power TIME</strong>
+									</div>
+									<div class="b-price-item__list">
+										<b>Телебачення</b>
+										<ul>
+											<li>Понад <b>140</b> каналів</li>
+										</ul>
+										<a href="">Список каналів</a>
+									</div>
+									<div class="b-price-item__list">
+										<b>Інтернет</b>
+										<ul>
+											<li>Швидкість до <b>200</b> Мбіт/с</li>
+											<li>Необмежений об'єм трафіку</li>
+										</ul>
+									</div>									
+								</div>
+								<div class="b-price-item__btns">
+									<button class="btn-connect">Підключити</button>
+									<button class="btn-price">Детальніше</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+							<div class="b-price-item">
+								<div class="b-price-item__wrap">
+									<div class="b-price-item__top">
+										<b>299<sup>грн</sup></b>
+										<strong>Premium HD (IP)</strong>
+									</div>
+									<div class="b-price-item__list">
+										<b>Телебачення</b>
+										<ul>
+											<li>Понад <b>170</b> каналів, до <b>30 HD</b> каналів</li>
+										</ul>
+										<a href="">Список каналів</a>
+									</div>
+									<div class="b-price-item__list">
+										<b>Інтернет</b>
+										<ul>
+											<li>Технологія EuroDocsis 3.0</li>
+											<li>Швидкість до <b>200</b> Мбіт/с</li>
+											<li>Необмежений об'єм трафіку</li>
+										</ul>
+										<div class="b-price-item__text">
+											<p><b>+</b> «Воля Сінема+»</p>
+											<p><b>+</b> 2 послуги «Мобільний додаток Воля TV»</p>
+										</div>
+									</div>									
+								</div>
+								<div class="b-price-item__btns">
+									<button class="btn-connect">Підключити</button>
+									<button class="btn-price">Детальніше</button>
+								</div>
+							</div>
+						</div>												
+					</div>
+				</div>		
+			</div>
+		</section>	
 
 		<section class="b-block">
 			<div class="container">
