@@ -7,7 +7,7 @@ body{
 	margin: 0;
 	color: #000000;
 	font-size: 14px;
-	font-family: 'Circe' , sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: normal;
 	background: #ffffff;
 	position: relative;
@@ -279,3 +279,117 @@ textarea{
 /* End Total css ====*/
 
 /* -------------- page index -------------- */
+
+/* -------------- b-block -------------- */
+.b-block{
+	background: url(../images/b-block-bg.jpg) center top no-repeat;
+	background-size: cover;
+	padding: 100px 0 96px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.b-block p{
+	color: #ffffff;
+	font-family: "DINPro";
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 44px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 45px 0;
+}
+.btn-connect{
+	width: 200px;
+	height: 58px;
+	background: #12a052;
+	border-radius: 29px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	color: #ffffff;
+	font-family: "DINPro";
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto 0;
+	display: block;
+}
+.btn-connect:hover{
+	background: #27ce72;
+	transition: 0.3s;
+}
+.btn-connect:active{
+	background: #038c40;
+	transition: 0.3s;
+}
+/* -------------- b-footer -------------- */
+.b-footer{
+	background: #ffffff;
+	padding: 70px 30px 50px 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.b-footer-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.b-footer-left{
+
+}
+.b-footer-logo{
+	display: block;
+}
+.b-footer-nav{
+}
+.b-footer-nav ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.b-footer-nav ul li{
+	list-style: none;
+	margin: 0 40px 0 0;
+}
+.b-footer-nav ul li:last-child{
+	margin: 0;
+}
+.b-footer-nav ul li a{
+	color: #5a5a5a;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+.b-footer-bottom{
+	position: relative;
+	min-height: 58px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 55px 0 0 0;
+}
+.b-footer-bottom span{
+	color: dimgrey;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 16px;
+}
+.b-footer-btns{
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0 0 100px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.b-footer-btns button{
+	margin: 0 15px 0 0;
+}
+.b-footer-btns button:last-child{
+	margin: 0;
+}
