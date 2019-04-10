@@ -1,3 +1,39 @@
+@media (max-height: 650px) {
+	.b-header-top{
+		margin: 0 0 30px 0;
+	}	
+	.b-info{
+		padding: 100px 0;
+	}
+	.b-info-content__wrap{
+		margin: 30px 0 0 0;
+	}
+	.b-tv-img{
+		padding: 0 300px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.b-tv:before{
+		width: 400px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 503px;
+		bottom: -50px;
+	}	
+	.b-advantages-title{
+		margin: 0 0 30px 0;
+	}
+	.b-advantages-item{
+		margin: 0 0 35px 0;
+	}
+	.b-desc-content{
+		margin: 100px 0;
+	}
+	.b-price{
+		padding: 70px 0;
+	}
+}
 @media (max-width: 1680px) {
 
 }
@@ -128,6 +164,9 @@
 
 
 @media (max-width: 991px){
+	.b-tv-img{
+		padding: 0;
+	}
 	.b-header-content__wrap{
 		margin: 0 30px 0 0;
 	}
